@@ -1,0 +1,326 @@
+@media screen and (max-width: 1500px) {
+    .vcard-roadmap-content-item:nth-child(2)::after {
+        left: -15%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .sidebar {
+        height: fit-content;
+        min-height: fit-content;
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-bottom: 30px;
+    }
+    .dashboard-content {
+        height: 100%;
+        width: 100%;
+        min-height: fit-content;
+        padding-left: 0px;
+    }
+    .qr-sidebar-left {
+        position: relative;
+        width: 100%;
+        padding: 20px 25px 25px 25px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .qr-show {
+        margin-top: 30px;
+    }
+    .qr-input-item-wrapper {
+        margin-bottom: 25px;
+    }
+    .qr-input-item-wrapper .qr-input-items {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .qr-input-list-items {
+        gap: 15px;
+    }
+    .qr-input-fleid {
+        padding: 70px 0 70px 0;
+    }
+    .vcard-roadmap-content-item:nth-child(2)::after {
+        display: none;
+    }
+    .vcard-roadmap-content-items {
+        gap: 20px;
+    }
+    .vcard-roadmap-content-item:nth-child(2)::before {
+        display: none;
+    }
+
+    .hero-section {
+        height: 100%;
+    }
+    .hero-content {
+        position: relative;
+        transform: none;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .qr-input-list-items .qr-input-list-item {
+        padding: 5px 0;
+    }
+    .qr-input-item-wrapper {
+        padding: 20px;
+    }
+    .qr-input-content h4 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .qr-code-item {
+        padding: 20px 20px 35px 20px;
+    }
+    .hero-wrapper {
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .vcard-roadmap-content-items {
+        grid-template-columns: 1fr;
+    }
+    .vcard-roadmap-content {
+        padding-top: 20px;
+    }
+    .vcard-roadmap-content-items-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logo img {
+        width: 120px;
+    }
+    .compnay-info {
+        border-right: 0;
+        margin-bottom: 20px;
+    }
+    .upload-image-wrapper .swiper-horizontal {
+        padding: 0 5px;
+    }
+    .dropzone-upload-img {
+        margin-bottom: 20px;
+    }
+    .product-discount-item {
+        margin-top: 20px;
+    }
+    .hero-content h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .hero-section {
+        padding: 60px 0 60px 0;
+    }
+    button.hero-btn {
+        margin-top: 30px;
+    }
+    .vCard-roadmap {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .vcard-roadmap-title h4 {
+        font-size: 30px;
+    }
+    .vcard-roadmap-content-item h3 {
+        font-size: 20px;
+    }
+    .home-header .logo a img {
+        width: 100px;
+    }
+    .appointment-form-wrapper {
+        padding-bottom: 60px;
+    }
+    .appointment-form-content {
+        padding: 30px 15px 35px 15px;
+    }
+    .react-calendar button {
+        padding: 10px 7px;
+    }
+    .appointment-time {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .appointment-time li {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 690px) {
+    .my-preview-top {
+        text-align: center;
+    }
+    .card-list.view-body-item {
+        padding: 20px 25px;
+    }
+        .view-card-btn button {
+        display: inline-grid;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        text-align: center;
+        color: #fff;
+        margin: 12px auto 0;
+        box-shadow: 0px 5px 14.1px 0.9px rgba(0, 0, 0, 0.24), 0px 4px 6.6px 0.4px rgba(0, 0, 0, 0.16);
+        cursor: pointer;
+        transition: all 0.1s ease-out;
+        position: relative;
+        z-index: 998;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .view-card-btn-appoint {
+        width: 46px;
+        height: 46px;
+        padding: 10px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+    .view-card-btn-appoint span {
+        display: none;
+    }
+    .show-preview {
+        padding-bottom: 120px;
+    }
+
+    .view-card-btn button span {
+        display: none;
+    }
+    .view-btn-item {
+        position: fixed;
+        right: 20px;
+        bottom: 40px;
+        z-index: 11;
+    }
+    .view-btn-item .view-card-btn {
+        position: relative;
+        padding: 0;
+        float: none;
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+        font-size: 9px;
+    }
+    .goog-te-gadget-simple {
+        padding: 10px 5px !important;
+    }
+    .qr-code-item .with-logo {
+        position: absolute;
+        right: 0;
+        top: -15px;
+        z-index: 1;
+    }
+}
+@media screen and (max-width: 640px) {
+    .header-drop-menu {
+        background: #fff;
+        margin-top: 15px;
+    }
+    .qr-count {
+        margin-bottom: 20px;
+    }
+    .custom-img-item {
+        width: 100%;
+        height: 198px;
+        padding: 20px 10px;
+    }
+}
+@media screen and (max-width: 578px) {
+    .faq-question-wrapper {
+        padding: 70px 0 40px 0;
+    }
+    .faq-content-wrapper {
+        padding: 30px 0 0 0;
+        margin-top: 0px;
+    }
+    .faq-content-wrapper h1 {
+        margin-bottom: 20px !important;
+    }
+    .faq-content-item h3 {
+        font-size: 22px;
+    }
+
+    .view-information-wrraper {
+        position: relative;
+    }
+    .payment-logo {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .qr-nav {
+        display: block;
+    }
+    .business-contact-details {
+        padding: 20px 30px 0 30px;
+    }
+    .compnay-name-info h3 {
+        font-size: 20px;
+    }
+    .compnay-name-info p {
+        font-size: 15px;
+    }
+    .scan p:first-child {
+        font-size: 20px;
+    }
+    .scan {
+        font-size: 15px;
+    }
+    .details a {
+        font-size: 15px;
+    }
+    .compnay-info {
+        border-right: 0;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .qr-nav {
+        display: block;
+    }
+
+    .qr-show {
+        margin-top: 30px;
+    }
+
+    a.qr-downlod:focus {
+        color: #fff;
+    }
+
+    a.qr-downlod:hover {
+        color: #fff;
+        border: none;
+        outline: none;
+    }
+    .sidebar-wrapper {
+        padding: 35px 30px;
+    }
+    .image-up-label {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-bottom: 15px;
+    }
+    .upload-image {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .start-item-list {
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .form-box {
+        padding: 25px;
+    }
+    .link-to-signup p {
+        font-size: 15px;
+    }
+}
